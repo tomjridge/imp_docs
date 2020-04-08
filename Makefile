@@ -1,6 +1,6 @@
 SHELL:=bash
 
-index.md: FORCE
-	find . -name "*.md" >index.md
+md_file_list.md: FORCE
+	find . -name "*.md" >$@
 
 FORCE:
