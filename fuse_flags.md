@@ -96,6 +96,8 @@ FUSE options:
     -o direct_io           use direct I/O
     -o kernel_cache        cache files in kernel
     -o [no]auto_cache      enable caching based on modification times (off)
+    
+    -o entry_timeout=T     cache timeout for names (1.0s)
     -o negative_timeout=T  cache timeout for deleted names (0.0s)
     -o attr_timeout=T      cache timeout for attributes (1.0s)
     -o ac_attr_timeout=T   auto cache timeout for attributes (attr_timeout)
